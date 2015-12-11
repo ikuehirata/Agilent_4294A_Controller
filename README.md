@@ -14,11 +14,12 @@ Programming Manual](http://literature.cdn.keysight.com/litweb/pdf/04294-90061.pd
 
 
 ### What this does ###
-1. Setup connection to Agilent 4294A Precision Impedance Analyzer at GPIB0::17
+1. Setups connection to Agilent 4294A Precision Impedance Analyzer at GPIB0::17
 (Check l. 23 for GPIB address setting)  
-2. Setup sweep parameters in ll. 25-41
-3. Perform SINGLE sweep (waiting time for sweep is customized by ``sleepdelay``)
-4. Save x-value, Trace A, Trace B in a single file.
+2. Setups sweep parameters in ll. 25-41
+3. Performs SINGLE sweep (waiting time for sweep is customized by ``sleepdelay``)
+4. Saves x-value, Trace A, Trace B in a single file.
+5. Sets back sweep mode to CONTINUOUS, then gives a beep
 
 -----
 # Updates  
