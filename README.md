@@ -1,2 +1,25 @@
 # Agilent_4294A_Controller
-Agilent 4294A Precision Impedance Analyzer controller by PyVISA,
+Agilent 4294A Precision Impedance Analyzer controller by PyVISA.  
+
+### Requirement ###
++ Python 2.x
++ NumPy
++ PyVISA
+
+### Usage ###
+Run the program with output file name as an argument.  
+    ``python Z-phi.py output.csv``
+Customize setups accordingly. Commands can be found at [Agilent 4294A Precision Impedance Analyzer
+Programming Manual](http://literature.cdn.keysight.com/litweb/pdf/04294-90061.pdf?id=1000002213-1:epsg:man).  
+
+
+### What this does ###
+1. Setup connection to Agilent 4294A Precision Impedance Analyzer at GPIB0::17
+(Check l. 23 for GPIB address setting)  
+2. Setup sweep parameters in ll. 25-41
+3. Perform SINGLE sweep (waiting time for sweep is customized by ``sleepdelay``)
+4. Save x-value, Trace A, Trace B in a single file.
+
+-----
+# Updates  
+2015 Dec 11 Version 1.00 uploaded  
