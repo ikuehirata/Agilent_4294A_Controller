@@ -23,4 +23,5 @@ Programming Manual](http://literature.cdn.keysight.com/litweb/pdf/04294-90061.pd
 
 -----
 # Updates  
+2016 Jan 21 Version 1.01 uploaded (minor revision)  
 2015 Dec 11 Version 1.00 uploaded  
